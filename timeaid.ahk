@@ -14,7 +14,7 @@ Ding30 := 30
 Ding45 := 45
 HourSoundPath := ".\sounds\current\hour.mp3"
 HalfHourSoundPath := ".\sounds\current\half.mp3"
-QuarterHourSoundPath := ".\sounds\quarter.mp3"
+QuarterHourSoundPath := ".\sounds\current\quarter.mp3"
 
 ; If the start time is in the morning and the end time is at night before or at midnight
 If (StartTime < EndTime) {
