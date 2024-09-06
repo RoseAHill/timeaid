@@ -1,4 +1,6 @@
 ﻿#Requires AutoHotkey v2.0
+; Written by Rosie A-Hill
+; RoseAHill on GitHub
 
 ; Feel free to edit the next few options
 StartTime := 800      ; 0-2300
