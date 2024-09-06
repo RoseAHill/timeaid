@@ -1,9 +1,9 @@
 ﻿#Requires AutoHotkey v2.0
 
 ; Feel free to edit the next few options
-StartTime := 800
-EndTime := 2400
-HasDisable := True
+StartTime := 800      ; 0-2300
+EndTime := 2400       ; 1-2400
+HasDisable := True    ; True or False
 
 ; Don't edit the following
 DingHour := 00
