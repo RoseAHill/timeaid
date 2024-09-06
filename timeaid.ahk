@@ -22,7 +22,7 @@ If (StartTime < EndTime) {
 		ticker := A_Min
 		current_time := A_Hour . A_Min
 		If (((current_time > StartTime) and (current_time < EndTime)) and ((ticker = DingHour) or (ticker = Ding15) or (ticker = Ding30) or (ticker = Ding45))) {
-			PlayCorrectSound(ticker)
+			PlayCorrectSound(&ticker)
 			While ((ticker = DingHour) or (ticker = Ding30) or (ticker = Ding15) or (ticker = Ding45)) {
 				Sleep 90000
 				ticker := A_Min
@@ -39,7 +39,7 @@ else
 		ticker := A_Min
 		current_time := A_Hour . A_Min
 		If (((current_time < StartTime) and (current_time > EndTime)) and ((ticker = DingHour) or (ticker = Ding15) or (ticker = Ding30) or (ticker = Ding45))) {
-			PlayCorrectSound(ticker)
+			PlayCorrectSound(&ticker)
 			While ((ticker = DingHour) or (ticker = Ding30) or (ticker = Ding15) or (ticker = Ding45)) {
 				Sleep 90000
 				ticker := A_Min
